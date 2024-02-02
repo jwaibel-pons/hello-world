@@ -2,13 +2,23 @@ apiVersion: v1
 entries:
   hello-world:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-02-01T18:11:22.80700529+01:00"
+    appVersion: 1.24.0
+    created: "2024-02-02T13:19:59.195893508+01:00"
     description: A Helm chart for Kubernetes
-    digest: 979a2ae5bd5a3a9149ae13f8729080c97c4bcb3eb94aed842d4f368ee8847b18
+    digest: 2749621c19e891a75c3da73785b993f0191b598dfd984842cc7bddcb117f653f
     name: hello-world
     type: application
     urls:
     - https://raw.githubusercontent.com/jwaibel-pons/hello-world/main/hello-world-1.24.0.tgz
     version: 1.24.0
-generated: "2024-02-01T18:11:22.806559792+01:00"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-02T13:19:59.195566042+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 1da0b4a02d92a214b44b22e9f705a1c59ff0d2da8445e6c070367d15a0e80768
+    name: hello-world
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/jwaibel-pons/hello-world/main/hello-world-1.16.0.tgz
+    version: 1.16.0
+generated: "2024-02-02T13:19:59.195106689+01:00"
